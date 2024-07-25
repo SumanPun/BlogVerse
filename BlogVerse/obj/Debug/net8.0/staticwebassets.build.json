@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C/BNNYkhMzSEWd8GT36y1n9zZFKr0479NWZY0Dqzmk4=",
+  "Hash": "sQ6qfQTw4KlftL0SzI6HsUccZkW2BjkdaH6n2BnOfMs=",
   "Source": "BlogVerse",
   "BasePath": "_content/BlogVerse",
   "Mode": "Default",
@@ -37806,6 +37806,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "E:\\Dot net project\\BlogVerse\\BlogVerse\\wwwroot\\thumbnails\\0983c41d-3dc9-4a78-81ee-73f0714d1483_Screenshot (1).png",
+      "SourceId": "BlogVerse",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Dot net project\\BlogVerse\\BlogVerse\\wwwroot\\",
+      "BasePath": "_content/BlogVerse",
+      "RelativePath": "thumbnails/0983c41d-3dc9-4a78-81ee-73f0714d1483_Screenshot (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\thumbnails\\0983c41d-3dc9-4a78-81ee-73f0714d1483_Screenshot (1).png"
+    },
+    {
+      "Identity": "E:\\Dot net project\\BlogVerse\\BlogVerse\\wwwroot\\thumbnails\\default_image.png",
+      "SourceId": "BlogVerse",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Dot net project\\BlogVerse\\BlogVerse\\wwwroot\\",
+      "BasePath": "_content/BlogVerse",
+      "RelativePath": "thumbnails/default_image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\thumbnails\\default_image.png"
     }
   ]
 }

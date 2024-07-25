@@ -7697,6 +7697,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "E:\\Dot net project\\BlogVerse\\BlogVerse\\wwwroot\\thumbnails\\0983c41d-3dc9-4a78-81ee-73f0714d1483_Screenshot (1).png",
+      "PackagePath": "staticwebassets\\thumbnails\\0983c41d-3dc9-4a78-81ee-73f0714d1483_Screenshot (1).png"
+    },
+    {
+      "Id": "E:\\Dot net project\\BlogVerse\\BlogVerse\\wwwroot\\thumbnails\\default_image.png",
+      "PackagePath": "staticwebassets\\thumbnails\\default_image.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlogVerse.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

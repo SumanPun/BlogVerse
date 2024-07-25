@@ -10,8 +10,9 @@ namespace BlogVerse.Models
         public string? ApplicationUserId { get; set; }
         [ForeignKey(nameof(ApplicationUserId))]
         public ApplicationUser? ApplicationUser { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
         public string? Description { get; set; }
         public string? Slug { get; set; }
+        public string? ThumbnailUrl { get; set; }
     }
 }
