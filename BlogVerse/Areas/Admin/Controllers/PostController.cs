@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using X.PagedList.Extensions;
 
 namespace BlogVerse.Areas.Admin.Controllers
 {
@@ -28,7 +29,7 @@ namespace BlogVerse.Areas.Admin.Controllers
             _userManager = userManager;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? page)
         {
             var listOfPosts = new List<Post>();
             var loggedInUser = await _userManager.Users.FirstOrDefaultAsync(x => x.UserName == User.Identity!.Name);
@@ -50,7 +51,9 @@ namespace BlogVerse.Areas.Admin.Controllers
                 ThumbnailUrl = x.ThumbnailUrl,
                 AuthorName = x.ApplicationUser!.FirstName + " " + x.ApplicationUser!.LastName
             }).ToList();
-            return View(data);
+            int pageNumber = (page ?? 1);
+            int pageSize = 4;
+            return View(data.OrderByDescending(x => x.CreatedDate).ToPagedList(pageNumber,pageSize));
         }
 
         public IActionResult Create()
